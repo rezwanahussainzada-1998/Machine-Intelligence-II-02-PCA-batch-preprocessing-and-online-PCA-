@@ -4,10 +4,10 @@
 
 ## Key Features & Explorations
 
-* [cite_start]**Batch PCA & Outlier Preprocessing:** Investigated the sensitivity of PCA to anomalies[cite: 547]. [cite_start]Implemented automated heuristics (such as standard deviation thresholds) to detect and purge outliers, restoring the orthogonal alignment of principal components[cite: 493, 496].
-* [cite_start]**Data Sphering & Whitening:** Applied whitening transformations to eliminate pairwise correlations and normalize variances across dimensions, verifying the transformation matrices via covariance heatmaps[cite: 501, 507].
-* [cite_start]**Mathematical Derivation of Oja's Rule:** Included a first-order Taylor expansion proof demonstrating how Oja's rule approximates explicit constraint normalization for small learning rates to prevent Hebbian weight divergence[cite: 518, 519, 521].
-* [cite_start]**Online PCA Simulation:** Simulated real-time, online learning by streaming data blocks sequentially[cite: 524, 530]. [cite_start]Analyzed the tracking performance and stability of weight vector trajectories under varying learning rates ($\epsilon \in \{0.002, 0.04, 0.45\}$) against a unit circle constraint[cite: 529, 538].
+**Batch PCA & Outlier Preprocessing:** Investigated the sensitivity of PCA to anomalies[cite: 547]. [cite_start]Implemented automated heuristics (such as standard deviation thresholds) to detect and purge outliers, restoring the orthogonal alignment of principal components[cite: 493, 496].
+**Data Sphering & Whitening:** Applied whitening transformations to eliminate pairwise correlations and normalize variances across dimensions, verifying the transformation matrices via covariance heatmaps
+**Mathematical Derivation of Oja's Rule:** Included a first-order Taylor expansion proof demonstrating how Oja's rule approximates explicit constraint normalization for small learning rates to prevent Hebbian weight divergence[cite: 518, 519, 521].
+**Online PCA Simulation:** Simulated real-time, online learning by streaming data blocks sequentially[cite: 524, 530]. [cite_start]Analyzed the tracking performance and stability of weight vector trajectories under varying learning rates ($\epsilon \in \{0.002, 0.04, 0.45\}$) against a unit circle constraint[cite: 529, 538].
 
 ## Repository Structure
 
