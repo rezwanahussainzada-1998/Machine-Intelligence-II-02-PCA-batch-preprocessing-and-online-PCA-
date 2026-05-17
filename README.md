@@ -1,4 +1,4 @@
-PCA and Online Learning (Oja's Rule) Implementation
+**PCA and Online Learning (Oja's Rule) Implementation**
 
 This repository contains a comprehensive practical analysis and implementation of Principal Component Analysis (PCA), data preprocessing techniques, and online gradient-based learning via Oja's Rule. The project explores how dimensionality reduction and unsupervised weight updates capture the dominant variance in statistical datasets over time.
 
